@@ -1,0 +1,77 @@
+# .gitignore para proyectos .NET / Visual Studio 2022 (.NET 8)
+
+## Build / Runtime
+bin/
+obj/
+out/
+publish/
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider / IntelliJ
+.idea/
+
+## VS Code
+.vscode/
+
+## NuGet
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+
+## Test results / coverage
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+## Logs / temp
+*.log
+*.tlog
+*.tmp
+*.temp
+*.bak
+
+## OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Dotnet publish / single-file / runtime artifacts
+*.dll
+*.exe
+*.pdb
+*.runtimeconfig.json
+*.deps.json
+
+## Package managers / tooling
+node_modules/
+npm-debug.log
+yarn-error.log
+
+## Secret / local configuration (no commit)
+secrets.json
+appsettings.*.Local.json
+appsettings.*.Development.json
+
+## Optional: datos grandes o binarios que no quieras en el repo
+# Si NO quieres versionar los archivos de Tesseract o imágenes de prueba,
+# descomenta las siguientes líneas:
+# tessdata/
+# *.jpg
+# *.jpeg
+# *.png
+# LICENSE_FRONT.jpeg
+
+# Fin

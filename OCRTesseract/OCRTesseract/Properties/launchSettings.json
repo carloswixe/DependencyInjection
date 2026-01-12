@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OCRTesseract": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
